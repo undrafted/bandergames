@@ -11,7 +11,7 @@ export const HeaderWrapper = styled.div`
 `;
 
 export const LogoWrapper = styled.a`
-  margin-top: 4px;
+  margin-top: 3px;
 
   & svg {
     width: 170px;
