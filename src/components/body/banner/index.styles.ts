@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Color } from "../../tokens/colors";
+import { Color } from "../../../tokens/colors";
 
 export const BannerWrapper = styled.div`
   color: ${Color.white};
