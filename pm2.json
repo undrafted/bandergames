@@ -1,0 +1,10 @@
+{
+  "apps": [
+    {
+      "name": "bandergames",
+      "script": "npm",
+      "interpreter": "none",
+      "args": "run deploy"
+    }
+  ]
+}
