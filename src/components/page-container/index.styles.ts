@@ -5,6 +5,6 @@ export const PageWrapper = styled.div`
   background: ${Color.brandPurple};
   width: 100%;
   max-width: 1024px;
-  height: 100vh;
   display: flex;
+  flex-direction: column;
 `;

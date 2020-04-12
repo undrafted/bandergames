@@ -1,11 +1,11 @@
 import React from "react";
-import { AppWrapper } from "./App.styles";
-import Header from "./header";
+import { AppWrapper } from "./index.styles";
+import PageContainer from "./page-container";
 
 function App() {
   return (
     <AppWrapper>
-      <Header />
+      <PageContainer />
     </AppWrapper>
   );
 }
