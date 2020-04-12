@@ -1,14 +1,14 @@
 import React from "react";
-import { BannerWrapper, ImgWrapper } from "./index.styles";
+import { BannerWrapper, TextWrapper, ImgWrapper } from "./index.styles";
 import octo from "./octo.png";
 
 const Banner = () => (
   <BannerWrapper>
-    <h1>
+    <TextWrapper>
       Bander
       <br />
       Games
-    </h1>
+    </TextWrapper>
     <ImgWrapper src={octo} />
   </BannerWrapper>
 );

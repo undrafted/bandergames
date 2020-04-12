@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Color } from "../../tokens/colors";
+import { mediaMinWidth } from "../../tokens/mediaQueries";
 
 export const HeaderWrapper = styled.div`
   display: flex;
@@ -9,8 +10,21 @@ export const HeaderWrapper = styled.div`
   align-items: center;
 `;
 
+export const LogoWrapper = styled.a`
+  ${mediaMinWidth.sm} {
+    svg {
+      width: 225px;
+      height: 70px;
+    }
+  }
+`;
+
 export const NavWrapper = styled.div`
   color: ${Color.white};
   font-family: "Poppins", sans-serif;
   font-size: 18px;
+
+  ${mediaMinWidth.sm} {
+    font-size: 24px;
+  }
 `;

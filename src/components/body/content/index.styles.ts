@@ -1,17 +1,22 @@
 import styled from "styled-components";
 import { Color } from "../../../tokens/colors";
-
+import { mediaMinWidth } from "../../../tokens/mediaQueries";
 export const ContentWrapper = styled.div`
   margin-top: 40px;
   width: 100%;
-  padding-left: 80px;
+
+  ${mediaMinWidth.sm} {
+    padding-left: 80px;
+  }
 `;
 
 export const PWrapper = styled.p`
   font-family: "Roboto", sans-serif;
-  font-size: 22px;
-  line-height: 1.2em;
+  font-size: 16px;
   color: ${Color.white};
+  text-align: justify;
+  line-height: 1.6em;
+  text-indent: 2em;
 
   &:not(:last-child) {
     margin-bottom: 22px;
@@ -19,5 +24,13 @@ export const PWrapper = styled.p`
 
   & .highlight {
     color: ${Color.brandOrage};
+  }
+
+  ${mediaMinWidth.xs} {
+    font-size: 22px;
+
+    &:not(:last-child) {
+      margin-bottom: 28px;
+    }
   }
 `;
