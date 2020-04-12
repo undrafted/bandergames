@@ -1,3 +1,3 @@
 #!/bin/bash
-echo "Serving yourAppName!"
+echo "Serving bandergames!"
 serve -s build -l 3000
