@@ -11,8 +11,14 @@ export const HeaderWrapper = styled.div`
 `;
 
 export const LogoWrapper = styled.a`
+  margin-top: 3px;
+
+  & svg {
+    width: 170px;
+    height: 52px;
+  }
   ${mediaMinWidth.sm} {
-    svg {
+    & svg {
       width: 225px;
       height: 70px;
     }
