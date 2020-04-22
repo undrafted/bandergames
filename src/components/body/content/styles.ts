@@ -1,7 +1,8 @@
 import styled from "styled-components";
 import { Color } from "../../../tokens/colors";
 import { mediaMinWidth } from "../../../tokens/mediaQueries";
-export const ContentWrapper = styled.div`
+
+export const Content = styled.div`
   margin-top: 40px;
   width: 100%;
 
@@ -10,7 +11,7 @@ export const ContentWrapper = styled.div`
   }
 `;
 
-export const PWrapper = styled.p`
+export const P = styled.p`
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   color: ${Color.white};

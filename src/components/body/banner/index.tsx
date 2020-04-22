@@ -1,16 +1,16 @@
 import React from "react";
-import { BannerWrapper, TextWrapper, ImgWrapper } from "./index.styles";
+import * as S from "./styles";
 import octo from "./octo.png";
 
 const Banner = () => (
-  <BannerWrapper>
-    <TextWrapper>
+  <S.Banner>
+    <S.Text>
       Bander
       <br />
       Games
-    </TextWrapper>
-    <ImgWrapper src={octo} />
-  </BannerWrapper>
+    </S.Text>
+    <S.Img src={octo} />
+  </S.Banner>
 );
 
 export default Banner;

@@ -1,12 +1,12 @@
 import React from "react";
-import { AppWrapper } from "./index.styles";
+import * as S from "./styles";
 import PageContainer from "./page-container";
 
 function App() {
   return (
-    <AppWrapper>
+    <S.App>
       <PageContainer />
-    </AppWrapper>
+    </S.App>
   );
 }
 

@@ -1,16 +1,16 @@
 import React from "react";
-import { HeaderWrapper, LogoWrapper, NavWrapper } from "./index.styles";
+import * as S from "./styles";
 import Bandergames from "../icons/Bandergames";
 
 const Header = () => {
   return (
-    <HeaderWrapper>
-      <LogoWrapper href="/">
+    <S.Header>
+      <S.Logo href="/">
         <Bandergames />
-      </LogoWrapper>
+      </S.Logo>
 
-      <NavWrapper>Coming soon</NavWrapper>
-    </HeaderWrapper>
+      <S.Nav>Coming soon</S.Nav>
+    </S.Header>
   );
 };
 

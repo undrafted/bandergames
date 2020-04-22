@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Color } from "../../tokens/colors";
 import { mediaMinWidth } from "../../tokens/mediaQueries";
 
-export const HeaderWrapper = styled.div`
+export const Header = styled.div`
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -10,7 +10,7 @@ export const HeaderWrapper = styled.div`
   align-items: center;
 `;
 
-export const LogoWrapper = styled.a`
+export const Logo = styled.a`
   margin-top: 3px;
 
   & svg {
@@ -25,7 +25,7 @@ export const LogoWrapper = styled.a`
   }
 `;
 
-export const NavWrapper = styled.div`
+export const Nav = styled.div`
   color: ${Color.white};
   font-family: "Poppins", sans-serif;
   font-size: 18px;

@@ -1,14 +1,14 @@
 import React from "react";
-import { PageWrapper } from "./index.styles";
+import * as S from "./styles";
 import Header from "../header";
 import Body from "../body";
 
 const PageContainer = () => {
   return (
-    <PageWrapper>
+    <S.Page>
       <Header />
       <Body />
-    </PageWrapper>
+    </S.Page>
   );
 };
 

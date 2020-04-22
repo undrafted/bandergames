@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Color } from "../tokens/colors";
 import { mediaMinWidth } from "../tokens/mediaQueries";
 
-export const AppWrapper = styled.div`
+export const App = styled.div`
   background: ${Color.brandPurple};
   width: 100%;
   min-height: 100vh;

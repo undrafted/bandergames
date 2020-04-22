@@ -1,7 +1,8 @@
 import styled from "styled-components";
 import { Color } from "../../../tokens/colors";
 import { mediaMinWidth } from "../../../tokens/mediaQueries";
-export const BannerWrapper = styled.div`
+
+export const Banner = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,7 +12,7 @@ export const BannerWrapper = styled.div`
   }
 `;
 
-export const TextWrapper = styled.h1`
+export const Text = styled.h1`
   font-family: "Poppins", sans-serif;
   font-size: 40px;
   color: ${Color.white};
@@ -31,7 +32,7 @@ export const TextWrapper = styled.h1`
   }
 `;
 
-export const ImgWrapper = styled.img`
+export const Img = styled.img`
   height: 169px;
   width: 169px;
 

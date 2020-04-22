@@ -1,13 +1,13 @@
 import React from "react";
-import { BodyWrapper } from "./index.styles";
+import * as S from "./styles";
 import Banner from "./banner";
 import Content from "./content";
 
 const Body = () => (
-  <BodyWrapper>
+  <S.Body>
     <Banner />
     <Content />
-  </BodyWrapper>
+  </S.Body>
 );
 
 export default Body;
